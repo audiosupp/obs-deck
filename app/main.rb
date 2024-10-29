@@ -2,8 +2,9 @@ require "tty-prompt"
 
 # files
 require_relative 'add_a_card'
+require_relative 'info'
 path = './decks/unique_phrases_deck.txt'
-path = './decks/user_deck.txt'
+#path = './decks/user_deck.txt'
 
 # logic
 prompt = TTY::Prompt.new
