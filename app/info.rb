@@ -1,8 +1,8 @@
 def info
-  obs_deck = './decks/unique_phrases_deck.txt'
-  user_deck = './decks/user_deck.txt'
+  obs_deck_path = './decks/unique_phrases_deck.txt'
+  user_deck_path = './decks/user_deck.txt'
 
-  card_count_obs_deck = File.readlines(obs_deck).size
-  card_count_user_deck = File.readlines(user_deck).size
-  puts "Total number of cards in deck: #{card_count_obs_deck + card_count_user_deck}"
+  obs_deck_card_count = File.readlines(obs_deck_path).size
+  user_deck_card_count = File.readlines(user_deck_path).size
+  puts "Total number of cards in the deck: #{obs_deck_card_count + user_deck_card_count}"
 end
