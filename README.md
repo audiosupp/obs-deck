@@ -21,12 +21,18 @@ Run inside the terminal:
 $ bundle
 ```
 
+Or install it yourself as:
+
+```
+$ gem install obs_deck
+```
+
 ## Usage
 
 Run inside the terminal:
 
 ```
-$ ruby app/main.rb
+$ obs_deck
 ```
 
 Then it should be pretty straightforward.
@@ -36,3 +42,5 @@ Then it should be pretty straightforward.
 I've used all the strategies from [ptigas/oblique-strategies](https://github.com/ptigas/oblique-strategies/). Then I cleaned them up by script and by hand.
 
 If you want a more accessible way to use Oblique Strategies from anywhere in your terminal, then you'll be better off installing this gem: [nodanaonlyzuul/oblique_strategies](https://github.com/nodanaonlyzuul/oblique_strategies)
+
+Also, when I viewed the source code for how Oblique Strategies was implemented, I got hooked on using it, modifying it, and creating my own first gem so I can use my OBS deck from the terminal too.
